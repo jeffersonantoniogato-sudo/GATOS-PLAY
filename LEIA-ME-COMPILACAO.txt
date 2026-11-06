@@ -1,0 +1,16 @@
+GATOS TV - compilação pelo celular usando GitHub Actions
+
+1. Extraia este ZIP.
+2. Crie uma conta em https://github.com (ou entre na sua conta).
+3. Crie um repositório novo, por exemplo GATOS-TV.
+4. Envie TODOS os arquivos e pastas que estão dentro da pasta GATOS-TV para a raiz do repositório. Inclua a pasta oculta .github.
+5. Abra a aba Actions do repositório.
+6. Se aparecer uma confirmação para permitir workflows, autorize.
+7. Abra o workflow "Build GATOS TV APK" e toque em Run workflow.
+8. Quando terminar com sucesso, abra a execução e baixe o artefato "GATOS-TV-debug-apk".
+9. Extraia o ZIP baixado para encontrar app-debug.apk.
+
+Este workflow tenta compilar o projeto; não significa que o app esteja completo.
+O APK atual terá somente a tela de conexão e validação Xtream Codes.
+Ainda faltam catálogo de canais/filmes/séries e reprodução de mídia.
+Não inclua credenciais reais em arquivos públicos. Use somente serviços e conteúdos autorizados.
